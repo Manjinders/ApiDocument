@@ -44,8 +44,10 @@ Description :Submitt the test response.
 
 <pre>
 {
-	Testdata   {String} 
+	Testdata   {String}
+	FileName	{String}
 	Filebase64  {base64string} 
+	
 	examdetailId {int}     
 }	 
 </pre>   
@@ -55,6 +57,7 @@ Description :Submitt the test response.
 <pre>
 {
 	Testdata   "your code"
+	FileName	"abc.rar"  Full file name with extension
 	Filebase64  file in base 64 format
 	examdetailId 124 
 
