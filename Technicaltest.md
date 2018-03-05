@@ -10,9 +10,8 @@ Description : get the test  for user.
 
     Get
 
-* **Method:** 
-    
-	Header
+* **Header:** 
+    	
 	Authorization: bearer your jwt token
 
 * **Success Response:**
@@ -26,7 +25,7 @@ Description : get the test  for user.
 
 
 
-** Submitt the test response  Api**
+**Submitt the test response  Api**
 ----
 Description :Submitt the test response.
 
@@ -37,8 +36,8 @@ Description :Submitt the test response.
 * **Method:** 
 
     POST
-    Header
-	
+* **Header:** 
+    	
 	Authorization: bearer your jwt token
 
 * **Data Params** <br />

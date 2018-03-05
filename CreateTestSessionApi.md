@@ -1,6 +1,6 @@
 **Administration Api**
 ----
-Description : authenticate the user.
+Description : list of test.
 
 * **URL**
 
@@ -10,9 +10,8 @@ Description : authenticate the user.
 
     Get
 
-* **Method:** 
-    
-	Header
+* **Header:** 
+    	
 	Authorization: bearer your jwt token
 
 * **Success Response:**
@@ -25,7 +24,7 @@ Description : authenticate the user.
 {
 [
     {
-        "Name": "sanjay Yadav",
+        "Name": "Test test",
         "Id": 1,
         "DateCreated": "22/02/2018",
         "TestStart": "2/22/2018 9:19:50 PM",
@@ -44,7 +43,7 @@ Description : authenticate the user.
         "Timetaken": "0 hour 0 min ",
         "Notes": "this just once you done with all the classes let me see them please, I want to make sure I am not missing anything or that we don't have anything extra that is not needed",
         "TestData": null,
-        "Linktozip": "973a2661-2305-4f52-a3f8-bb5fb1389acc.rar"
+        "Linktozip": "973a2661-2305-4f52-a3ffdff8-bb5fb1389acc.rar"
     }
 ]
 }
@@ -55,7 +54,7 @@ Description : authenticate the user.
 
 
 
-** View test details Api**
+**View test details Api**
 ----
 Description :View test details.
 
@@ -66,8 +65,8 @@ Description :View test details.
 * **Method:** 
 
     Get
-    Header
-	
+* **Header:** 
+    	
 	Authorization: bearer your jwt token
 
 
@@ -79,7 +78,7 @@ Description :View test details.
  
 <pre>
 {
-    "Name": "sanjay Yadav",
+    "Name": "Test test",
     "Id": 1,
     "DateCreated": "02/22/2018",
     "TestStart": "2/22/2018 9:19:50 PM",
@@ -116,8 +115,8 @@ Description :Create test session.
 
     Get
 	
-	  Header
-	
+* **Header:** 
+    	
 	Authorization: bearer your jwt token
 
 * **Data Params** <br />
@@ -183,7 +182,7 @@ Description :Create test session.
 </pre>
 
 
-** Validate Token  Api**
+**Validate Token  Api**
 ----
 Description :ValidateToken test session token.
 
@@ -195,8 +194,8 @@ Description :ValidateToken test session token.
 
     Get
 	
-	Header
-	
+* **Header:** 
+    	
 	Authorization: bearer your jwt token
 
 
