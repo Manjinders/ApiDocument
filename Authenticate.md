@@ -21,7 +21,7 @@ https://graph.facebook.com/oauth/authorize?client_id=236311273578424&redirect_ur
 
 </pre>
 
-** Facebook code authenticate Api**
+**Facebook code authenticate Api**
 ----
 Description :Facebook callback url send authentication code.
 
@@ -38,7 +38,7 @@ Description :Facebook callback url send authentication code.
 
 <pre>
 {
-	code   {String} *Required User's email address.
+	code   {String}
 	
 }	 
 </pre>   
@@ -46,7 +46,7 @@ Description :Facebook callback url send authentication code.
 * **Example:** <br/>
 
 <pre>
-{	"code":"AQAtkL5KBZnpQvIb_oLRy_BnoFe27VPKA3T0jjpJAvwBKCrGPyKHlcJp-4QIwKrIDX55veQfEQXLea15FFfXnQwLUvybt9ixvsCETmHG2ZX6P8dg2PIxpS7YXcNtmRx0_aJa3rglsDITYGLbUdLuXWxTDSgNT-w_P9gSGrNrDzjoyfLh4JvN2oMi7_Ka48iD4qDoQfvXqmJKVhh3hPQoCF_pPKPUKvcWt2E7TdfTTKTfsSi3033mRFY09nlgpR_-nJIFIdGeOD3-RcUZsdG7WEKlo56tCgHMrN3KxE3b2yJHapG63o0fhA5aiolDJ7CYIqc2yFpK0DnVUHJEuziljuJh",
+{	"code":"AQAtkL5KBZnpQvIb_oLRy_BnoFe27VPKA3T0jjpJAvwBKCrGPyKHlcJp-4QIwKrIDX55veQfEQXLea15FFfXnQwLUvybt9ixvsCETmHG2ZX6P8dg2PIxpS7YXcNtmRx0_aJa3rglsDITYGLbUdLuXWxTDSgNT-w_P9gSGrNrDzjoyfLh4JvN2oMi7",
 	
 }
 </pre>  
@@ -59,15 +59,15 @@ Description :Facebook callback url send authentication code.
  
 <pre>
 {
-    "First_Name": "Manjinder",
-    "Last_Name": "Singh",
+    "First_Name": "Test",
+    "Last_Name": "Test",
     "Gender": "male",
     "Locale": "en_US",
-    "Link": "https://www.facebook.com/app_scoped_user_id/1500323313409825/",
+    "Link": "https://www.facebook.com/app_scoped_use",
     "Id": 1500323313409825,
-    "Email": "manjinder.impinge@gmail.com",
+    "Email": "test@gmail.com",
     "Roles": null,
-    "JwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Im1hbmppbmRlci5pbXBpbmdlQGdtYWlsLmNvbSIsIm5iZiI6MTUyMDI0NzI5NSwiZXhwIjoxNTIwMjQ5MDk0LCJpYXQiOjE1MjAyNDcyOTV9.QCb78MqJHsLYrY7avXNU_Tkn7igbwEAWdhsbSK-i0r4"
+    "JwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Im1hbmppbmRlci5pbXBp"
 }
 </pre>
 	
