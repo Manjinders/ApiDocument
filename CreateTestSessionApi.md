@@ -1,6 +1,6 @@
 **Administration Api**
 ----
-Description : list of test.
+Description : list of tests.
 
 * **URL**
 
