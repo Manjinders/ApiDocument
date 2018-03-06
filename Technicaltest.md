@@ -57,7 +57,7 @@ Description :Submitt the test response.
 <pre>
 {
 	Testdata   "your code"
-	FileName	"abc.rar"  Full file name with extension "Rquired"
+	FileName	"abc.rar"  Full file name with extension "Required"
 	Filebase64  file in base 64 format
 	examdetailId 124 
 
