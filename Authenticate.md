@@ -67,7 +67,7 @@ Description :Facebook callback url send authentication code.
     "Id": 1500323313409825,
     "Email": "test@gmail.com",
     "Roles": null,
-    "JwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6Im1hbmppbmRlci5pbXBp"
+    
 }
 </pre>
 	
