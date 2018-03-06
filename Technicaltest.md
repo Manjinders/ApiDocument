@@ -12,7 +12,7 @@ Description : get the test  for user.
 
 * **Header:** 
     	
-	Authorization: bearer your jwt token
+	ContentType: application/json
 
 * **Success Response:**
 
@@ -35,10 +35,10 @@ Description :Submitt the test response.
 
 * **Method:** 
 
-    POST
+    PUT
 * **Header:** 
     	
-	Authorization: bearer your jwt token
+	ContentType: application/json
 
 * **Data Params** <br />
 
@@ -57,7 +57,7 @@ Description :Submitt the test response.
 <pre>
 {
 	Testdata   "your code"
-	FileName	"abc.rar"  Full file name with extension
+	FileName	"abc.rar"  Full file name with extension "Rquired"
 	Filebase64  file in base 64 format
 	examdetailId 124 
 
@@ -70,4 +70,17 @@ Description :Submitt the test response.
 * **Error Response:**
 
 	Code: 400 NOT FOUND
-
+	
+* **Content:**<br />
+	
+<pre>
+{
+	{
+    "Message": "The request is invalid.",
+    "ModelState": {
+        "model.FileName": [
+            "The FileName field is required."
+        ]
+    }
+}
+</pre>

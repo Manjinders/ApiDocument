@@ -10,10 +10,6 @@ Description : list of tests.
 
     Get
 
-* **Header:** 
-    	
-	Authorization: bearer your jwt token
-
 * **Success Response:**
 
 	Code: 200 
@@ -65,10 +61,6 @@ Description :View test details.
 * **Method:** 
 
     Get
-* **Header:** 
-    	
-	Authorization: bearer your jwt token
-
 
 * **Success Response:**
 
@@ -117,7 +109,7 @@ Description :Create test session.
 	
 * **Header:** 
     	
-	Authorization: bearer your jwt token
+	ContentType: application/json
 
 * **Data Params** <br />
 
@@ -196,7 +188,7 @@ Description :ValidateToken test session token.
 	
 * **Header:** 
     	
-	Authorization: bearer your jwt token
+	ContentType: application/json
 
 
 * **Success Response:**
